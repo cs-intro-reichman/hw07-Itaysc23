@@ -10,7 +10,7 @@ public class Sierpinski {
 		StdDraw.setCanvasSize();
 		StdDraw.setXscale(0,1);
 		StdDraw.setYscale(0, Math.sqrt(3)/2);
-		double x1 = 0.0
+		double x1 = 0.0;
 		double y1 = 0.0;
 		double x2 = 1.0; 
 		double y2 = 0.0;

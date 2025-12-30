@@ -12,7 +12,7 @@ public class IntToBin {
         return toBinary (x, str);
     }  
     //** Recursive function that retuns the binary representation of the given integer as a string */
-    public static String toBinary (int x, String str){
+    private static String toBinary (int x, String str){
         if (x%2 == 1){
             str = 1 + str;
         } else {
